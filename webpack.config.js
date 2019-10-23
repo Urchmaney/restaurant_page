@@ -7,21 +7,21 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  module:{
-    rules:[
+  module: {
+    rules: [
       {
         test: /\.css$/,
-        use:[
+        use: [
           'style-loader',
           'css-loader',
-        ]
+        ],
       },
       {
-        test:/\.(png|svg|jpg|gif)$/,
-        use:[
-          'file-loader'
-        ]
-      }
-    ]
-  }
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+    ],
+  },
 };
