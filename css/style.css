@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center-align{
+    text-align: center;
+}
+.tab{
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid gray;
+    background-color: #5b5444;
+    color:white;
+}
+.active-tab{
+    background-color: #f8f3ef;
+    color : #5b5444;
+    border-bottom: 1px solid #f8f3ef;
+}
+.tab-display{
+    padding:10px;
+    height : 500px;
+    background-color: #f8f3ef;
+}
